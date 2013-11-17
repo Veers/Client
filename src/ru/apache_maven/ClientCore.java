@@ -13,6 +13,8 @@ public class ClientCore {
             @Override
             public void run() {
                 new ClientCore();
+                MainChatWindow mainChatWindow = new MainChatWindow();
+                mainChatWindow.createAndShowGUI();
             }
         });
     }
